@@ -17,12 +17,15 @@ def hewan(mamalia = "kucing"):
 
 hewan()
 
-# Arbitary Argument
+# Arbitary Argument = If you do not know how many arguments that will be passed into your function
 def funcArgs(*angka):
     print("angka terakhir yang dimasukkan yaitu", angka[-1])
 
 funcArgs(2,4,6,8,10)
 
-# Arbitary Keywords
-# nanti
+# Arbitary Keywords = If you do not know how many keyword that will be passed into your function
+def my_function(**kid):
+  print("His last name is " + kid["fname"])
+
+my_function(fname = "Tobias", lname = "Refsnes")
 
